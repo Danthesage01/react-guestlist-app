@@ -78,6 +78,7 @@ header {
 }
 .input-group {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -86,10 +87,10 @@ header {
 
 input {
   border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 15px;
+  border-radius: 5px;
+  padding: 10px;
   font-size: 16px;
-  margin: 25px;
+  margin: 25px 10px;
 }
 
 input:focus {
@@ -136,4 +137,23 @@ input:focus {
   padding-top: 10px;
   text-align: center;
   color: red;
+}
+
+@media (min-width: 600px) {
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px 10px;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    margin: 25px;
+  }
+  
 }
