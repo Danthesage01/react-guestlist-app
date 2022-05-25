@@ -11,11 +11,16 @@ const GuestListData = [
   },
   {
     id: 3,
+    firstName: "Hope",
+    lastName: "Rosemary"
+  },
+  {
+    id: 4,
     firstName: "Solo",
     lastName: "Magoosh"
   },
   {
-    id: 4,
+    id: 5,
     firstName: "Peter",
     lastName: "Abutu"
   },
