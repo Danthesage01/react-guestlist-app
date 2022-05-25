@@ -23,7 +23,7 @@ const GuestListData = [
     id: 5,
     firstName: "Peter",
     lastName: "Abutu"
-  },
+  }
 ]
 
 export default GuestListData
